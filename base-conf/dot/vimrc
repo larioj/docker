@@ -1,0 +1,48 @@
+" General Behaviour
+so $HOME/.vim_base.vim
+syntax on
+set nocompatible
+set relativenumber
+set number
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+colorscheme kitKat
+
+"Mappings
+nnoremap : ;
+nnoremap ; :
+
+"Wrapping
+set nowrap
+
+"Tab navigation
+nnoremap ,n :tabnext<CR>
+nnoremap ,l :tabprev<CR>
+nnoremap ,e  :tabedit<Space>
+nnoremap ,m  :tabm<Space>
+
+"Parenthesis matching
+inoremap {<CR> {<CR>}<Esc>ko
+
+"Folding
+set foldmethod=indent
+nnoremap ,f zM
+nnoremap ,u zR
+
+"Whitespace!!
+set list
+set listchars=tab:..,trail:^,extends:#,nbsp:?
+
+"Spell Checking
+set spell
+
+"Autosave
+inoremap <Esc> <Esc>:w<CR>
+
+" Bash Aliases in Vim
+let $BASH_ENV = "~/.bash_aliases"
+
+" Set default run to script
+nnoremap fr :! ls; bide r ./%
