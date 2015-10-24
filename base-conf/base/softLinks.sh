@@ -38,21 +38,11 @@ getAction () {
 sourceD=$(pwd)
 destD=$HOME
 sourceFiles=(
-# "setup.sh:.setup.sh"
 "bash_aliases:.bash_aliases"
 "bashrc:"
-"emacs:.emacs"
 "gitconfig:.gitconfig"
 "haskeline:.haskeline"
-"vimrc:.vimrc"
-"vim/after:.vim/after"
-"vim/colors:.vim/colors"
-"vim/ftplugin:.vim/ftplugin"
-"vim/plugin:.vim/plugin"
-"vim/spell:"
-"vim/syntax:"
 "bide:"
-"ycm_extra_conf.py:"
 )
 
 val () {

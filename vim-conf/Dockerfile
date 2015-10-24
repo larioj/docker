@@ -1,6 +1,6 @@
 FROM base-core:latest
 MAINTAINER larioj
 
-COPY dot/ dot/
-RUN cd dot/ && \
+COPY vim/ vim/
+RUN cd vim/ && \
   ./softLinks.sh m

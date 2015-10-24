@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/jesus/courses/mit/dcomsys/huffman'
-let g:netrw_dirhist_2='/Users/jesus/languages/c/glib'
-let g:netrw_dirhist_3='/Users/jesus/languages/haskell/algorithms/opcomp'
-let g:netrw_dirhist_4='/Users/jesus/projects/gnone'
-let g:netrw_dirhist_5='/Users/jesus/courses/amath/301'
