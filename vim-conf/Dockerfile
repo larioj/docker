@@ -1,4 +1,4 @@
-FROM base-core:latest
+FROM vim-core:latest
 MAINTAINER larioj
 
 COPY vim/ vim/

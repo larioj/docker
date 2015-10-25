@@ -14,6 +14,7 @@ RUN cd $HOME/.vim/bundle/vimproc.vim && make
 RUN git clone https://github.com/Valloric/YouCompleteMe.git $HOME/.vim/bundle/YouCompleteMe/ && \
   cd $HOME/.vim/bundle/YouCompleteMe/ && \
   git submodule update --init --recursive && \
+  echo "hello" && \
   $HOME/.vim/bundle/YouCompleteMe/install.py --clang-completer
 
 RUN git clone https://github.com/tpope/vim-sensible.git $HOME/.vim/bundle/vim-sensible/
