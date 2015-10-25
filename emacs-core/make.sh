@@ -13,7 +13,7 @@ repos=(
 for repo in "${repos[@]}"; do
   ext="$(basename $repo)"
   name="${ext%%.git}"
-  echo "RUN git clone $repo \$HOME/.emacs.d/plugins/$name && \\"
-  echo "  echo \"(add-to-list 'load-path \\\"~/.emacs.d/plugins/$name\\\")\" >> \$HOME/.emacs"
+  echo "RUN git clone $repo \$HOME/.emacs.d/$name && \\"
+  echo "  echo \"(add-to-list 'load-path \\\"~/.emacs.d/$name\\\")\" >> \$HOME/.emacs"
   echo ""
 done

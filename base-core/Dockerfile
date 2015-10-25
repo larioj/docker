@@ -4,7 +4,7 @@ MAINTAINER larioj
 RUN apt-get update -y
 RUN apt-get install -y \
   vim \
-  emacs \
+  emacs-nox \
   curl \
   ctags \
   git \
