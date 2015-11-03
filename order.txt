@@ -1,6 +1,5 @@
 base-core
 base-conf
-emacs-core
-emacs-conf
 vim-core
 vim-conf
+emacs

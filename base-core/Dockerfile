@@ -4,7 +4,6 @@ MAINTAINER larioj
 RUN apt-get update -y
 RUN apt-get install -y \
   vim \
-  emacs-nox \
   curl \
   ctags \
   git \
@@ -19,3 +18,4 @@ RUN apt-get install -y mercurial
 RUN apt-get install -y texinfo
 RUN apt-get install -y install-info
 RUN apt-get install -y clang
+RUN apt-get install -y man
